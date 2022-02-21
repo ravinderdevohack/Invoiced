@@ -1,0 +1,12 @@
+<%= form_with  model: @contact, url: v1_contacts_path , method:  :post, id: 'myPost' do |form| %>
+  <%= form.label :name, 'Name' %>
+  <%= form.text_field :name, class:'input'%><br>
+
+  <%= form.label :phone_number, 'phone_number' %>
+  <%= form.text_field :phone_number, class:'input'%><br>
+
+  <%= form.label :email, 'email' %>
+  <%= form.text_field :email, class:'input'%><br>
+
+  <%= form.submit 'Submit' %>
+<% end %>

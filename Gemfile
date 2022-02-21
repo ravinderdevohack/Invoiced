@@ -46,3 +46,15 @@ group :development do
   # gem "spring"
 end
 
+
+
+gem 'awesome_print'
+gem 'devise'
+gem 'rack-cors'
+
+gem 'jbuilder'
+
+gem 'jwt'
+
+# gem 'simple_token_authentication'
+# gem 'simple_token_authentication', '~> 1.0'
